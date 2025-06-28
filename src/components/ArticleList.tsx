@@ -21,7 +21,7 @@ export default function ArticleList({ list }: ArticleListProps) {
         onChange={(e) => setQuery(e.target.value)}
         style={{ marginBottom: 16, padding: 8, width: "100%" }}
       />
-      {filtered.map((nutrition, idx) => (
+      {filtered.map((nutrition) => (
         <div key={nutrition.id}>
           <ArticleListItem item={nutrition} />
         </div>

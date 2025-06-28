@@ -10,6 +10,7 @@ export interface Nutrition {
   category: string;
   type: string;
   macronutrient: string;
+  tags?: string[]; // Add this line if your data includes tags
 }
 
 // Get all nutrition items
@@ -47,8 +48,8 @@ export function searchNutritions(query: string): Nutrition[] {
     searchWords.every(
       (word) =>
         item.name.toLowerCase().includes(word) ||
-        (Array.isArray((item as any).tags) &&
-          (item as any).tags.some((tag: string) =>
+        (Array.isArray((item as Nutrition & { tags?: string[] }).tags) &&
+          ((item as Nutrition & { tags?: string[] }).tags as string[]).some((tag: string) =>
             tag.toLowerCase().includes(word)
           ))
     )
