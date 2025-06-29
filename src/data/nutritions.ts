@@ -1,4 +1,5 @@
 import nutritions from "./nutritions.json";
+import slugify from "slugify";
 
 export interface Nutrition {
   id: number;
@@ -18,9 +19,26 @@ export function getAllNutritions(): Nutrition[] {
   return nutritions;
 }
 
-export function getNutritionById(id: string): Nutrition | undefined {
-  const idNum = Number(id);
-  return nutritions.find((item) => item.id === idNum);
+export function getNutritionByQ(q: string): Nutrition[] {
+  const searchWords = q?.toLowerCase().split(" ").filter(Boolean) || [];
+
+  return nutritions.filter((item: Nutrition) =>
+    searchWords.every(
+      (word) =>
+        item.name.toLowerCase().includes(word) ||
+        item.category.toLowerCase().includes(word) ||
+        item.type.toLowerCase().includes(word) ||
+        item.macronutrient.toLowerCase().includes(word) ||
+        (item.tags && item.tags.some((tag) => tag.toLowerCase().includes(word)))
+    )
+  );
+}
+
+export function getNutritionBySlug(slug: string): Nutrition | undefined {
+  return nutritions.find(
+    (item: Nutrition) =>
+      slugify(item.name, { lower: true, strict: true }) === slug
+  );
 }
 
 // Search nutritions by name or tag
@@ -49,8 +67,8 @@ export function searchNutritions(query: string): Nutrition[] {
       (word) =>
         item.name.toLowerCase().includes(word) ||
         (Array.isArray((item as Nutrition & { tags?: string[] }).tags) &&
-          ((item as Nutrition & { tags?: string[] }).tags as string[]).some((tag: string) =>
-            tag.toLowerCase().includes(word)
+          ((item as Nutrition & { tags?: string[] }).tags as string[]).some(
+            (tag: string) => tag.toLowerCase().includes(word)
           ))
     )
   );
