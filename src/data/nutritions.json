@@ -74,7 +74,7 @@
     "fats": 6.9,
     "type": "Žitarice",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Žitarice"
+    "category": "zitarice"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "fats": 0.58,
     "type": "Žitarice",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Žitarice"
+    "category": "zitarice"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "fats": 1.4,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Žitarice"
+    "category": "zitarice"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "fats": 2.7,
     "type": "Žitarice",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Žitarice"
+    "category": "zitarice"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "fats": 2.5,
     "type": "Žitarice",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Žitarice"
+    "category": "zitarice"
   },
   {
     "id": 12,
@@ -371,7 +371,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 35,
@@ -382,7 +382,7 @@
     "fats": 0.2,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 36,
@@ -393,7 +393,7 @@
     "fats": 65.2,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 37,
@@ -404,7 +404,7 @@
     "fats": 49.9,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 38,
@@ -415,7 +415,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 39,
@@ -426,7 +426,7 @@
     "fats": 0.2,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 40,
@@ -437,7 +437,7 @@
     "fats": 0.2,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 41,
@@ -448,7 +448,7 @@
     "fats": 14.7,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 42,
@@ -459,7 +459,7 @@
     "fats": 0.1,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 43,
@@ -470,7 +470,7 @@
     "fats": 0.4,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 44,
@@ -481,7 +481,7 @@
     "fats": 15.3,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 45,
@@ -492,7 +492,7 @@
     "fats": 60.8,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 46,
@@ -503,7 +503,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 47,
@@ -514,7 +514,7 @@
     "fats": 0.7,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 48,
@@ -525,7 +525,7 @@
     "fats": 43.9,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 49,
@@ -536,7 +536,7 @@
     "fats": 0.1,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 50,
@@ -547,7 +547,7 @@
     "fats": 0.2,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 51,
@@ -558,7 +558,7 @@
     "fats": 0.5,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 52,
@@ -569,7 +569,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 53,
@@ -580,7 +580,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 54,
@@ -591,7 +591,7 @@
     "fats": 67.1,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 55,
@@ -602,7 +602,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 56,
@@ -613,7 +613,7 @@
     "fats": 1.2,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 57,
@@ -624,7 +624,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 58,
@@ -635,7 +635,7 @@
     "fats": 0.5,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 59,
@@ -646,7 +646,7 @@
     "fats": 0.3,
     "type": "Voće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Voće"
+    "category": "voce"
   },
   {
     "id": 60,
@@ -734,7 +734,7 @@
     "fats": 0.0,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 68,
@@ -745,7 +745,7 @@
     "fats": 21.0,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 69,
@@ -756,7 +756,7 @@
     "fats": 3.8,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 70,
@@ -767,7 +767,7 @@
     "fats": 5.5,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 71,
@@ -778,7 +778,7 @@
     "fats": 32.1,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 72,
@@ -789,7 +789,7 @@
     "fats": 3.3,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 73,
@@ -800,7 +800,7 @@
     "fats": 10.0,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 74,
@@ -811,7 +811,7 @@
     "fats": 20.0,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   },
   {
     "id": 75,
@@ -822,6 +822,6 @@
     "fats": 0.4,
     "type": "Mlečni proizvodi",
     "macronutrient": "Proteini",
-    "category": "Mlečni proizvodi"
+    "category": "Mlecni proizvodi"
   }
 ]
