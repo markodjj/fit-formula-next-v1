@@ -96,7 +96,7 @@
     "fats": 1.4,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "zitarice"
+    "category": "povrce"
   },
   {
     "id": 10,
@@ -129,7 +129,7 @@
     "fats": 0.65,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "fats": 0.4,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "fats": 49.4,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "fats": 6.0,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "fats": 1.1,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "fats": 0.2,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "fats": 0.2,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
     "fats": 0.3,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
     "fats": 0.4,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
     "fats": 0.4,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 26,
@@ -283,7 +283,7 @@
     "fats": 0.2,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 27,
@@ -294,7 +294,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 28,
@@ -305,7 +305,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 29,
@@ -316,7 +316,7 @@
     "fats": 9.0,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 30,
@@ -327,7 +327,7 @@
     "fats": 0.2,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 31,
@@ -338,7 +338,7 @@
     "fats": 49.7,
     "type": "Voće",
     "macronutrient": "Masti",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 32,
@@ -349,7 +349,7 @@
     "fats": 0.2,
     "type": "Povrće",
     "macronutrient": "Vlakna",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 33,
@@ -360,7 +360,7 @@
     "fats": 0.1,
     "type": "Povrće",
     "macronutrient": "Ugljeni hidrati",
-    "category": "Povrće"
+    "category": "povrce"
   },
   {
     "id": 34,

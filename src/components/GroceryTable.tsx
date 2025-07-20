@@ -1,8 +1,14 @@
 "use client";
 import { useState } from "react";
 import { Nutrition } from "@/data/nutritions";
+import Link from "next/link";
+import slugify from "slugify";
 
-export default function GroceryTable({ groceries }: { groceries: Nutrition[] }) {
+export default function GroceryTable({
+  groceries,
+}: {
+  groceries: Nutrition[];
+}) {
   const [query, setQuery] = useState("");
   const filtered = query
     ? groceries.filter((item) =>
@@ -31,7 +37,16 @@ export default function GroceryTable({ groceries }: { groceries: Nutrition[] }) 
         <tbody>
           {filtered.map((item) => (
             <tr key={item.id}>
-              <td>{item.name}</td>
+              <td>
+                <Link
+                  href={`/articles/${slugify(item.name, {
+                    lower: true,
+                    strict: true,
+                  })}`}
+                >
+                  {item.name}
+                </Link>
+              </td>
               <td>{item.calories}</td>
               <td>{item.protein}</td>
               <td>{item.carbohydrates}</td>

@@ -1,6 +1,7 @@
 import { getAllNutritions } from "@/data/nutritions";
 import { Nutrition } from "@/data/nutritions";
 import GroceryTable from "@/components/GroceryTable";
+import { categories } from "@/data/categories";
 
 interface PageProps {
   params: Promise<{ category: string }>;
@@ -8,15 +9,6 @@ interface PageProps {
 
 export const revalidate = 86400; // Refresh cached pages once every 24 hours
 
-const categories = [
-  { name: "Meso", path: "meso" },
-  { name: "Žitarice", path: "zitarice" },
-  { name: "Povrće", path: "povrce" },
-  { name: "Voće", path: "voce" },
-  { name: "Jaja", path: "jaja" },
-  { name: "Riba", path: "riba" },
-  { name: "Mlečni proizvodi", path: "mlecni-proizvodi" },
-];
 // Generate static paths for all categories
 export async function generateStaticParams() {
   return categories.map((category) => ({
