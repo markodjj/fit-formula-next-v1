@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { Button } from "../ui/button";
 
 //import "./Calculator.scss";
 
@@ -35,7 +36,7 @@ function BMRCalculator() {
   return (
     <div className="calculator">
       <div className="calculator-container">
-        <h2 className="title">BMR Kalkulator</h2>
+        <h2 className="title font-bold">BMR Kalkulator</h2>
         <form
           data-test="bmr-calculator-form"
           onSubmit={calculateBMR}
@@ -94,7 +95,8 @@ function BMRCalculator() {
               />
             </div>
           </div>
-          <button type="submit">Izračunaj</button>
+          {/* <button type="submit">Izračunaj</button> */}
+          <Button>Izracunajk</Button>
         </form>
         {/* className="text-xl font-semibold text-blue-700" */}
         {/* className="text-gray-700" */}
